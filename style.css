@@ -69,23 +69,26 @@ a{
 }
 .part1{
     background-color: white;
+    font-size: 36px;
 }
 .boxes .box{
-    width: 90px;
-    height: 80px;
+    width: 120px;
+    height: 100px;
     border: 2px solid rgb(75, 129, 209);
     border-radius: 10px;  
 }
 .boxes{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 50px; 
+    
+
 } 
 .subtext{
     display: flex;
     justify-content: center;
     gap:50px;
-    font-size: 10px;
+    font-size: 14px;
     margin-bottom: -100px; 
      
 }
@@ -100,6 +103,8 @@ a{
     color: #1f2937;
     font-weight: 300;
     font-style: italic;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 #subscript{
     margin-left: 500px;
